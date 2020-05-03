@@ -41,6 +41,20 @@
       }
 
 
+      .menu {
+        margin-top: 15px;
+      }
+      
+      .menu > li {
+        display: inline;
+        margin-right: 50px;
+      }
+      
+      .menu > li:last-of-type {
+        margin-right: 0;
+      }
+
+
 
        /* Mobile Styles */
   @media only screen and (max-width: 400px) {
