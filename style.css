@@ -41,6 +41,9 @@
       }
 
 
+      
+       
+
       .menu {
         margin-top: 15px;
       }
@@ -66,11 +69,21 @@
         text-decoration: underline;
       }
 
+      .profile-img{
+        border-radius:50%;
+      }
 
        /* Mobile Styles */
   @media only screen and (max-width: 400px) {
     body {
       background-color :#fff; /* White */
+      
+    }
+
+    .img{
+      margin-top:5%;
+      width:30%;
+      
     }
   }
   
@@ -88,6 +101,20 @@
         margin: 0 auto;
       }
       
+      .col-narrow {
+        margin-top: 5%;
+        width: 20%;
+        float: left;
+      }
+      .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+      }
+
+      .profile-img {
+        width: 200px;
+      }
       
       header {
         height: 180px;
