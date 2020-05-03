@@ -25,7 +25,7 @@
         display:flex;
         font-family: 'Dancing-script',cursive, sans-serif;
         justify-content: center;
-        align-items: left;
+        align-items: center;
         font-size:20px;
       }
 
@@ -39,7 +39,7 @@
         width:100%;
         margin-top: 10px;
         padding:50px;
-        background: rgb(194, 229, 247);
+        background:rgb(194, 229, 247);
         border-radius:20px;
       }
 
@@ -74,16 +74,20 @@
 
       .profile-img{
         border-radius:50%;
-        display:flex;
+        margin-left: 0 auto;
+        display:inline;
       }
 
       footer{
         width:100%;
         display:flex;
-        justify-items:center;
-        background-color:rgb(70, 70, 70);
+        align-items:space-around;
+        background-color:rgb(124, 124, 124);
+        color:rgb(194, 229, 247);
         height:100px;
         border-radius: 20px;
+        font-family:'MedievalSharp', cursive, sans-serif;
+        font-size:20px;
       }
 
        /* Mobile Styles */
@@ -113,16 +117,13 @@
       .col-narrow {
         margin-top: 5%;
         width: 20%;
-        display:flex;
-        align-items:center;
-        justify-content:center;
+        
+        
       }
       .col-wide {
         width: 70%;
-        display:flex;
-        align-items: center;
-        justify-content:center;
         padding-left: 20px;
+       
       }
 
       .profile-img {
