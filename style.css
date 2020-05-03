@@ -43,8 +43,24 @@
         border-radius:20px;
       }
 
+      #about{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+      }
+
+      #projects{
+        display:none;
+      }
 
       
+
+      #contact{
+        display:none;
+        justify-items:center;
+        align-items:center;
+      }
        
 
       .menu {
@@ -81,10 +97,11 @@
       footer{
         width:100%;
         display:flex;
-        align-items:space-around;
+        justify-content:center;
+        align-items:center;
         background-color:rgb(124, 124, 124);
         color:rgb(194, 229, 247);
-        height:100px;
+        height:50px;
         border-radius: 20px;
         font-family:'MedievalSharp', cursive, sans-serif;
         font-size:20px;
@@ -139,6 +156,7 @@
         
       }
       footer{
-        height:100px;
+        height:50px;
+        align-items:center;
       }
   }
