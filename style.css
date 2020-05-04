@@ -161,6 +161,18 @@
     body {
       background-color: #FFF; /* White */
     }
+
+    section{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+    .contact{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
   }
   
   /* Desktop Styles */
