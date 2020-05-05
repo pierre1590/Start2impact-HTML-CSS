@@ -53,6 +53,14 @@ main{
   align-items: center;
 }
 
+section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Dancing-script', cursive, sans-serif;
+}
+
 
 footer{
   width: 100%;
