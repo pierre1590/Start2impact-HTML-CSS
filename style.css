@@ -126,6 +126,8 @@ details-container {
 }
 
 
+
+
 /* PROJECT */
 #projects{
   position: relative;
@@ -144,20 +146,7 @@ details-container {
 
 
 
-/* SKILLS */
-#skills{
-  position: relative;
-  overflow: hidden;
-}
 
-#skills{
-  position:absolute;
-  left:-100%;
-  transition: left 0.3s ease-in-out;
-}
-#skills:target{
-  left: 0;
-}
 
 /* CONTACT */
 
@@ -179,6 +168,20 @@ label[name=contact]{
   left: 0;
 }
 
+input[type]{
+  font-size:18px;
+  border-radius:10px;
+  background-color: lightcyan;
+}
+
+label{
+  margin-top: 10px;;
+}
+
+button{
+  border-radius:10px;
+  background-color:lightgrey;
+}
 
 
 
