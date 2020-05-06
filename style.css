@@ -150,9 +150,7 @@ details-container {
 
 /* CONTACT */
 
-label[name=contact]{
-  margin-top:10px;
-}
+
 
 #contact{
   position: relative;
@@ -168,20 +166,47 @@ label[name=contact]{
   left: 0;
 }
 
+.form{
+  padding:20px;
+}
+
+label{
+  color:rgb(150, 148,148);
+}
+
 input[type]{
+  
   font-size:18px;
   border-radius:10px;
   background-color: lightcyan;
 }
 
-label{
-  margin-top: 10px;;
+.contacts{
+  
+  border: solid 1px lightgrey;
+  border-radius:10px;
+  padding:10px;
+  margin:10px;
 }
 
 button{
+  display:flex;
+  justify-content: center;
+  align-items: center;
   border-radius:10px;
   background-color:lightgrey;
+  color: blue;
+  font-size:24px;
+  cursor: pointer;
 }
+
+
+textarea{
+  background-color: lightcyan;
+}
+
+
+
 
 
 
@@ -199,6 +224,8 @@ footer{
   background-color:rgb(150, 148,148);
   border-radius: 20px;
 }
+
+
 
 
 /* MEDIA QUERIES */
