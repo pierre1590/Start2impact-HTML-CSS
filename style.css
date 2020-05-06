@@ -175,10 +175,12 @@ label{
 }
 
 input[type]{
-  
-  font-size:18px;
-  border-radius:10px;
+  max-width: 350px;
+  font-size:15px;
+  border-radius:8px;
   background-color: lightcyan;
+  padding:3px;
+  
 }
 
 .contacts{
@@ -198,6 +200,7 @@ button{
   color: blue;
   font-size:24px;
   cursor: pointer;
+  padding:5px;
 }
 
 
