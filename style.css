@@ -84,33 +84,37 @@ section{
 
 
 /*  ABOUT */
-.bio{
+
+.card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  display:flex;
+  width: 980px;
+  min-height:300px;
+  justify-content:spac
+}
+
+.row{
   display:flex;
   flex-wrap:wrap;
-  justify-content:center;
-  align-items:center;
   
 }
 
-.bio_content {
-  display:flex;
-  justify-content:flex-end;
-  align-items:center;
-  font-size:20px;
-}
-
-.img-profile{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
 
 .img{
-  border-radius: 70%;
+  border-radius:70%;
+  
 }
 
+details-container {
+  flex: 2;
+}
 
-
+.avatar-container {
+  flex-basis: 250px;
+  
+}
 
 #about{
   position:absolute;
