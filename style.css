@@ -86,21 +86,19 @@ section{
 /*  ABOUT */
 
 .card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
- width:650px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  display:flex;
+  width: 980px;
+  min-height:300px;
+  justify-content:spac
 }
 
-.card_img{
+.row{
   display:flex;
+  flex-wrap:wrap;
   
-}
-
-.card_content{
-  display:flex;
-  padding:10px;
 }
 
 
@@ -109,7 +107,14 @@ section{
   
 }
 
+details-container {
+  flex: 2;
+}
 
+.avatar-container {
+  flex-basis: 250px;
+  
+}
 
 #about{
   position:absolute;
@@ -179,36 +184,37 @@ input[type]{
 }
 
 .contacts{
-  
-  border: solid 1px lightgrey;
+  display: flex;
+  border: solid 1px rgb(150, 148,148);
   border-radius:10px;
-  padding:10px;
+  padding:20px;
   margin:10px;
 }
 
-button[id=submit ]{
-  display:flex;
+button{
+ 
   justify-content: center;
   align-items: center;
   border-radius:10px;
   background-color:rgb(150, 148,148);
-  color: rgb(194, 229, 247);
+  color:rgb(194, 229, 247);
   font-size:24px;
   cursor: pointer;
   padding:5px;
-
 }
-
-
 
 
 textarea{
-  background-color:rgb(194, 229, 247);
-  font-size: 15px;
-
+  background-color: rgb(194, 229, 247);
 }
 
-
+.email{
+  display:flex;
+  border: 1px solid rgb(150, 148,148);
+  border-radius:10px;
+  padding: 10px;
+  margin:10px;
+}
 
 
 
@@ -232,6 +238,7 @@ footer{
 
 
 /* MEDIA QUERIES */
+
 
 
 
