@@ -86,19 +86,21 @@ section{
 /*  ABOUT */
 
 .card {
-  background-color: white;
-  padding: 15px;
-  border-radius: 5px;
-  display:flex;
-  width: 980px;
-  min-height:300px;
-  justify-content:spac
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ width:650px;
 }
 
-.row{
+.card_img{
   display:flex;
-  flex-wrap:wrap;
   
+}
+
+.card_content{
+  display:flex;
+  padding:10px;
 }
 
 
@@ -107,14 +109,7 @@ section{
   
 }
 
-details-container {
-  flex: 2;
-}
 
-.avatar-container {
-  flex-basis: 250px;
-  
-}
 
 #about{
   position:absolute;
@@ -178,7 +173,7 @@ input[type]{
   max-width: 350px;
   font-size:15px;
   border-radius:8px;
-  background-color: lightcyan;
+  background-color: rgb(194, 229, 247);
   padding:3px;
   
 }
@@ -191,21 +186,26 @@ input[type]{
   margin:10px;
 }
 
-button{
+button[id=submit ]{
   display:flex;
   justify-content: center;
   align-items: center;
   border-radius:10px;
-  background-color:lightgrey;
-  color: blue;
+  background-color:rgb(150, 148,148);
+  color: rgb(194, 229, 247);
   font-size:24px;
   cursor: pointer;
   padding:5px;
+
 }
 
 
+
+
 textarea{
-  background-color: lightcyan;
+  background-color:rgb(194, 229, 247);
+  font-size: 15px;
+
 }
 
 
@@ -232,7 +232,6 @@ footer{
 
 
 /* MEDIA QUERIES */
-
 
 
 
