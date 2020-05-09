@@ -28,6 +28,7 @@ nav {
 nav a{
   padding:15px 20px;
   text-transform: uppercase;
+  cursor:pointer;
 }
 
 .menu{
@@ -56,6 +57,10 @@ a:hover{
   color:rgb(194,229,247);
 }
 
+.profile-img{
+  border-radius:70%;
+}
+
 /* PROJECTS */
 #projects{
   background:url(images/wall.png);
@@ -66,10 +71,92 @@ a:hover{
 
 
 /* CONTACT */
+#contacts{
+  margin-top:10px;
+}
 
+label{
+  color:rgb(150, 148,148);
+}
+
+input[type]{
+  
+  font-size:15px;
+  border-radius:8px;
+  background-color: rgb(194, 229, 247);
+  padding:5px;
+  
+}
+
+.contacts{
+ 
+  border: solid 1px rgb(150, 148,148);
+  border-radius:10px;
+  
+  margin:10px;
+}
+
+button{
+ 
+  
+  border-radius:10px;
+  background-color:rgb(150, 148,148);
+  color:rgb(194, 229, 247);
+  font-size:24px;
+  cursor: pointer;
+  padding:5px;
+}
+
+
+textarea{
+  background-color: rgb(194, 229, 247);
+  border-radius:10px;
+}
+
+.email{
+  
+  border: 1px solid rgb(150, 148,148);
+  border-radius:10px;
+  padding: 10px;
+  margin:10px;
+}
 
 
 /* FOOTER */
+
+.footer{
+  font-size:18px;
+  font-family: 'MedievalSharp', cursive, sans-serif; 
+  background-color: rgb(110, 110, 110);
+  border-radius: 20px;
+  color:rgb(194,229,247);
+  height:100px;
+  padding:5px;
+}
+  
+@media only screen and (max-width:899px){
+  header{
+    text-align:center;
+  }
+    .profile-img{
+      width:200px;
+    }
+}
+
+@media only screen and (min-width:900px){
+  .col-narrow{
+    margin-top: 5%;
+    width: 20%;
+    float: left; 
+  }
+
+  .col-wide{
+    width:  70%;
+    float: right;
+    padding-left: 20px;
+  }
+
+}
 
 
 
