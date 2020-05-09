@@ -111,6 +111,7 @@ button{
 textarea{
   background-color: rgb(194, 229, 247);
   border-radius:10px;
+  font-size: 15px;
 }
 
 .email{
