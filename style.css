@@ -55,6 +55,23 @@ html{
 }
 
 
+.top{
+  top:2%;
+  height: 90px;
+  width:100%;
+  position: fixed;
+  background:rgb(145, 231, 247);
+  color: #11f;
+  border-radius:  0 0 10% 10%;
+}
+
+.top h1{
+  font-family: "Dancing-script", cursive;
+  position: absolute;
+  padding-left: 15%;
+  font-size: 42px;
+}
+
 
   .button_container {
    
@@ -212,18 +229,43 @@ html{
   border-radius:70%;
 }
 
+.col-wide p:first-letter {
+  font-family: 'Dancing-script',cursive, sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+}
+
 /* PROJECTS */
 #projects{
   background:url(images/wall.png);
   border-radius: 20px;
   padding: 10px;
   margin-top: 15px;
+  
+}
+
+.template{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 60px;
+}
+
+.card{
+  height:300px;
+  width:200px;
+  position: relative;
+  cursor: pointer;
+  
+ 
+  
 }
 
 
 
-
-
+.card:hover{
+  transform: scale(1.2);
+}
 
 
 
@@ -305,6 +347,22 @@ textarea{
   height:125px;
   padding:5px;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-widt:340px){
+  .card{
+    height: 150px;
+    width: 100px;
+  }
+
+  .col-wide p:first-letter{
+    font-family: 'Dancing-script',cursive, sans-serif;
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
   
 @media only screen and (max-width:899px){
   header{
@@ -313,6 +371,12 @@ textarea{
     .profile-img{
       width:200px;
     }
+
+    .col-wide p:first-letter{
+      font-family: 'Dancing-script',cursive, sans-serif;
+      font-size: 3rem;
+      line-height: 1;
+    }
 }
 
 @media only screen and (min-width:900px){
@@ -320,6 +384,12 @@ textarea{
     margin-top: 5%;
     width: 20%;
     float: left; 
+  }
+
+  .col-wide p:first-letter{
+    font-family: 'Dancing-script',cursive, sans-serif;
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .col-wide{
