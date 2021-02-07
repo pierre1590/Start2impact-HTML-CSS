@@ -1,6 +1,6 @@
 html{
   box-sizing: border-box;
-  background:linear-gradient(0.35turn, rgb(173, 241, 238), rgb(245, 244, 207), rgb(173, 241, 238));
+  background:linear-gradient(0.35turn, rgb(173, 241, 238), rgb(238, 232, 181), rgb(173, 241, 238));
 }
 
 .uppercase{
@@ -57,14 +57,14 @@ html{
 
 
 .top{
- top: 2%;
- 
-  height: 90px;
+  top: 0.3%;
+  background:linear-gradient(0.35turn, rgb(173, 241, 238), rgb(238, 232, 181), rgb(173, 241, 238));
+  height: 110px;
   width:100%;
   position: fixed; 
   color: #11f;
-  border-radius:  0 0 25% 25%;
-  -webkit-border-radius:0 0 25% 25%;
+  border-radius:  0 0 10% 10%;
+  -webkit-border-radius:0 0 10% 10%;
 }
 
 
