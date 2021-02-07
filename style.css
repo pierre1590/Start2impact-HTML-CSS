@@ -1,5 +1,6 @@
 html{
   box-sizing: border-box;
+  background:linear-gradient(0.35turn, rgb(173, 241, 238), rgb(245, 244, 207), rgb(173, 241, 238));
 }
 
 .uppercase{
@@ -56,14 +57,17 @@ html{
 
 
 .top{
-  top:2%;
+ top: 2%;
+ 
   height: 90px;
   width:100%;
-  position: fixed;
-  background:rgb(145, 231, 247);
+  position: fixed; 
   color: #11f;
-  border-radius:  0 0 10% 10%;
+  border-radius:  0 0 25% 25%;
+  -webkit-border-radius:0 0 25% 25%;
 }
+
+
 
 .top h1{
   font-family: "Dancing-script", cursive;
@@ -272,7 +276,14 @@ html{
 /* CONTACT */
 #contacts{
   margin-top:10px;
+  font-size: 26px;
   
+}
+
+#contacts p::first-letter{
+  font-family: 'Dancing-script',cursive, sans-serif;
+  font-size: 3rem;
+  line-height: 1;
 }
 
 label{
