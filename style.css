@@ -63,8 +63,8 @@ html{
   width:100%;
   position: fixed; 
   color: #11f;
-  border-radius:  0 0 10% 10%;
-  -webkit-border-radius:0 0 10% 10%;
+  border-radius:  0 0 5% 5%;
+  -webkit-border-radius:0 0 5% 5%;
 }
 
 
