@@ -342,6 +342,10 @@ textarea{
   font-size: bold;
 }
 
+.email a:hover{
+  color:#f03;
+}
+
 
 
 /* FOOTER */
