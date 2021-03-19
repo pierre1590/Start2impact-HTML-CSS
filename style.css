@@ -262,7 +262,9 @@ html{
   border-radius: 20px;
   padding: 15px;
   margin-top: 10px;
-  
+}
+#projects h2{
+  font-family: 'Pacifico', serif;
 }
 
 .horizontal-slider{
@@ -281,7 +283,7 @@ html{
 .item{
   display: inline-block;
   margin-right:10px;
-  
+  font-family:'Pacifico', serif; ;
 }
 
 .item img {
