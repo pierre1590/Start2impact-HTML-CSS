@@ -265,29 +265,33 @@ html{
   
 }
 
-.grid-container{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
- 
+.horizontal-slider{
+  display: block;
+  width:100%;
+  overflow-x: scroll;
   
 }
 
-.grid-item{
-  padding: 10px;
-  text-align: center;
-  width: 200px;
-  height: 250px;
-  
+.slider-container{
+  display: block;
+  white-space: nowrap;
   
 }
-.grid-item h3 {
-  color: rgb(248, 53, 18);
-  font-family: 'Pacifico', serif;
-  font-size: 25px;
+
+.item{
+  display: inline-block;
+  margin-right:10px;
+  
 }
 
+.item img {
+  width: 250px;
+  height:300px;
+}
 
+.item h3{
+  color: #f01;
+}
 
 /* CONTACT */
 #contacts{
