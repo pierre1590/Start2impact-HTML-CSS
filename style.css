@@ -264,6 +264,7 @@ html{
   margin-top: 10px;
 }
 #projects h2{
+  margin-top:1%;
   font-family: 'Pacifico', serif;
 }
 
@@ -292,7 +293,9 @@ html{
 }
 
 .item h3{
+  text-align: center;
   color: #f01;
+  font-size:22px;
 }
 
 /* CONTACT */
@@ -300,6 +303,10 @@ html{
   margin-top:10px;
   font-size: 26px;
   
+}
+
+#contact h2{
+  font-family: 'Pacifico', serif;
 }
 
 #contacts p::first-letter{
