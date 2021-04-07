@@ -3,6 +3,10 @@ html{
   background:linear-gradient(0.35turn, rgb(173, 241, 238), rgb(238, 232, 181), rgb(173, 241, 238));
 }
 
+body{
+  overflow-y: scroll;
+  
+}
 
 /* SCROLLBAR */
 ::-webkit-scrollbar{
