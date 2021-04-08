@@ -86,6 +86,7 @@ body{
   color: #11f;
   border-radius:  0 0 5% 5%;
   -webkit-border-radius:0 0 5% 5%;
+  z-index: 3;
 }
 
 
