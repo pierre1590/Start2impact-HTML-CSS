@@ -87,6 +87,7 @@ body{
   border-radius:  0 0 5% 5%;
   -webkit-border-radius:0 0 5% 5%;
   z-index: 3;
+
 }
 
 
@@ -165,6 +166,7 @@ body{
     opacity: 0.9;
     visibility: visible;
     height: 100%;
+    z-index: 4;
   }
   .overlay.open li {
     animation: fadeInRight 0.5s ease forwards;
@@ -246,9 +248,9 @@ body{
 
 #about{
   top:3%;
-  background-color: rgb(110, 110, 110);
+  background-color: rgb(150, 150, 150);
   border-radius: 20px;
-  color:rgb(194,229,247);
+  color:rgb(6, 41, 87);
 }
 
 .profile-img{
@@ -289,13 +291,21 @@ body{
 .item{
   display: inline-block;
   margin-right:10px;
-  font-family:'Pacifico', serif; ;
+  font-family:'Pacifico', serif; 
+}
+
+.item img:hover{
+  transform: scale(1.2);
+  border-radius: 10%;
+  box-shadow: 3px 3px grey;
 }
 
 .item img {
   width: 220px;
   height:250px;
+  border-radius: 15px;
 }
+
 
 .item h3{
   text-align: center;
@@ -347,8 +357,8 @@ input[type]{
 
 button{
   border-radius:10px;
-  background-color:rgb(150, 148,148);
-  color:rgb(194, 229, 247);
+  background-color:rgb(150, 150, 150);
+  color:rgb(6, 41, 87);
   font-size:24px;
   cursor: pointer;
   padding:5px;
@@ -389,11 +399,12 @@ textarea{
 /* FOOTER */
 
 .footer{
+  font-weight: bold;
   font-size:18px;
   font-family: 'MedievalSharp', cursive, sans-serif; 
-  background-color: rgb(110, 110, 110);
+  background-color: rgb(150, 150, 150);
   border-radius: 20px;
-  color:rgb(194,229,247);
+  color:rgb(6, 41, 87);
   height:125px;
   padding:5px;
 }
