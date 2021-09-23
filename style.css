@@ -294,11 +294,7 @@ body{
   font-family:'Pacifico', serif; 
 }
 
-.item img:hover{
-  transform: scale(1.2);
-  border-radius: 10%;
-  box-shadow: 3px 3px grey;
-}
+
 
 .item img {
   width: 220px;
